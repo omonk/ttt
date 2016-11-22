@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/omonk/ttt/issues"
   },
-  "homepage": "https://github.com/omonk/ttt#readme"
+  "homepage": "https://github.com/omonk/ttt#readme",
+  "devDependencies": {
+    "gulp-standard-tasks": "^1.4.0"
+  }
 }
