@@ -19,5 +19,9 @@
   "homepage": "https://github.com/omonk/ttt#readme",
   "devDependencies": {
     "gulp-standard-tasks": "^1.4.0"
+  },
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "gulp-standard-tasks": "^1.4.0"
   }
 }
