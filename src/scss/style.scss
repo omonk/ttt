@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 33%;
+    padding: 40px;
+    float: left;
+    border: 1px solid black;
+
+    &:nth-child(odd) {
+        // background-color: red;
+    }
+
+    &:nth-child(even) {
+        // background-color: blue;
+    }
+}
